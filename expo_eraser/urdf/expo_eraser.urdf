@@ -1,0 +1,25 @@
+
+<!-- * * * Link Definitions * * * -->
+<robot name="expo_eraser">
+<link name="expo_eraser">
+    <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.018" />
+        <inertia ixx="0.00002835" ixy="0.0" ixz="0.0" iyy="0.00002835" iyz="0.0" izz="0.0000324"/>
+    </inertial>
+    <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+            <mesh filename="package://expo_eraser/models/eraser.dae"/>
+        </geometry>
+    </collision>
+    <visual>
+        <origin rpy="0.0 0 0" xyz="0 0 0"/>
+        <geometry>
+            <mesh filename="package://expo_eraser/models/eraser.dae"/>
+        </geometry>
+    </visual>
+</link>
+</robot>
+
+
