@@ -17,7 +17,7 @@
         <pose>0 0 -0.46 0 0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://coke_can/meshes/coke_can.dae</uri>
+            <uri>package://coke_can/meshes/coke_can.dae</uri>
           </mesh>
         </geometry>
       </collision>
@@ -25,7 +25,7 @@
         <pose>0 0 -0.46 0 0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://coke_can/meshes/coke_can.dae</uri>
+            <uri>package://coke_can/meshes/coke_can.dae</uri>
           </mesh>
         </geometry>
       </visual>
